@@ -235,7 +235,7 @@ textarea {
 .home-hero {
   color: #fff;
   /* background: linear-gradient(to right, rgba(148, 177, 234, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);*/ 
-  background: linear-gradient(to right, rgba(57, 63, 75, 0.8), rgba(4, 99, 177, 0.8)), url(../../assets/jpeg/club_photo.jpeg); 
+  background: linear-gradient(to right, rgba(57, 63, 75, 0.8), rgba(4, 99, 177, 0.8)), url(../../assets/jpeg/ASME-NTU-background.jpeg); 
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -425,9 +425,6 @@ textarea {
     flex-direction: column;
     align-items: center;
    }
-    @media only screen and (max-width: 56.25em) {
-      .contact-info-content {
-        align-items: center; } }
     .contact-info-content-img {
       width: 100%;
       /* border-style:dashed; */
@@ -436,6 +433,14 @@ textarea {
       border-radius: 50%;
       display: block;
       object-fit: cover; } 
+      @media only screen and (max-width: 56.25em) {
+        .contact-info-content {
+          align-items: center; }
+        .contact-info-content-img {
+          display: none;
+        }
+        }
+
     .contact-info-content-icons-conainer{
       flex-direction: row;
       margin: 0.2rem;
