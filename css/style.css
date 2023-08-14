@@ -136,6 +136,10 @@ textarea {
     transform: translateX(-50%);
     border-radius: 5px; }
     @media only screen and (max-width: 37.5em) {
+      .heading-sec1__main--lt{
+        padding-left: 10%;
+        padding-right: 10%;
+      }
       .heading-sec__main::after {
         top: calc(100% + 1.2rem); } }
 
@@ -265,7 +269,7 @@ textarea {
     transform: translateY(-50%); }
     @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
-      top:35%; 
+      top:40%; 
       } }
   .home-hero__mouse-scroll-cont {
     position: absolute;
