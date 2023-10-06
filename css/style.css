@@ -472,8 +472,9 @@ textarea {
    }
    .contact-info-content-email:hover {
     background-color: rgba(53, 49, 49, 0.169);
-
    }
+
+   
     .contact-info-content-img {
       width: 100%;
       /*---------------------- Remember to make the profile pictures a square------------- */
@@ -510,7 +511,12 @@ textarea {
       margin: 1rem;
       /* width: 2.8rem; */
     } 
-      
+    @media only screen and (max-width: 56.25em) {
+      .contact-info-content-icons{
+        font-size: 1.5rem;
+
+      }
+    }
 
     
       
